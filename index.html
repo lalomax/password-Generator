@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Password Generator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <main>
+      <h1>Generate a <br>random password</h1>
+      <p>Never use an insecure password again</p>
+      <button onclick="showPassword()"><img src="img/Icon.png">Generate password</button>
+      <label id="label-el""for="length-el">length = 10</label>
+      <input id="length-el" type="range" min="5" max="25" value="10">
+    </main>
+    <hr>
+    <section>
+      <button onclick="selfCopy(this.textContent)" class="btn-el"><img src="img/IconDot.png"></button>
+      <button onclick="selfCopy(this.textContent)" class="btn-el"><img src="img/IconDot.png"></button>
+      <button onclick="selfCopy(this.textContent)" class="btn-el"><img src="img/IconDot.png"></button>
+      <button onclick="selfCopy(this.textContent)" class="btn-el"><img src="img/IconDot.png"></button>
+    </section>
+    <script src="script.js"></script>
+  </div> 
+
+</body>
+
+</html>
