@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
 * {
-  /* border: 2px dotted dodgerblue; */
   font-family: 'Karla', sans-serif;
 }
 .container {
@@ -39,7 +38,6 @@ button {
 }
 main button {
 
-  /* background-image: url(icon.png) no-repeat; */
       display: flex;
     justify-content: space-evenly;
     align-items: center;
